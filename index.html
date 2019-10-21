@@ -1106,6 +1106,9 @@ a4 { font-weight:bold;
 	<div id="mimi">
 		<img src="mimi.png">
 	</div>
+	<audio id="beep">
+		<source src="beep.mp3" type="audio/mpeg">
+	</audio>
 
 
 <audio id="walkk">
@@ -1130,11 +1133,11 @@ a4 { font-weight:bold;
 	</div>
 
 <!--방향 -->
-
+<a href="https://seoojing.github.io/oi/">
 	<div id="turn">
 		<img src="turn.png">
 	</div>
-
+</a>
 
 <!--설명글 -->
 
@@ -1693,6 +1696,9 @@ window.onmousemove = function(){
 			face4.style.display = "none"
 			face2.style.display = "inline"
 			}
+
+	soun11.onclick = function(){
+		beep.play();}	
 	next2.onclick = function(){
 		but.play();
 		jungg4.style.display = "none"
@@ -2172,7 +2178,7 @@ window.onmousemove = function(){
 			soun11.style.display = "none";
 			music.style.display = "inline";
 			musi.style.display = "inline";
-			self.setTimeout("lookDiv4()",3000);
+			self.setTimeout("lookDiv4()",700);
 		on = true;
 			}
 	soun6.onclick = function(){
